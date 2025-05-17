@@ -1,23 +1,8 @@
-# AMPLY: A Blockchain-Based Carbon Credit Trading Platform
 
-## Overview
-Amply is a decentralized platform designed to tokenize carbon credits as ERC-20 tokens, ensuring transparency, security, and efficiency in carbon credit trading. Users can earn, buy, and sell carbon credits in an open market while leveraging blockchain technology for verification and trust.
 
-### **Deployed Website**
-The Amply platform is live and accessible via the following link:
 
-🌍 [Visit AMPLY](https://kriti-blockchain-1.onrender.com/)
 
----
-
-### **Deployed Smart Contract Address**
-The smart contract has been deployed on the **Ethereum Mainnet/Testnet**. You can interact with it using the following address:
-
-```sh
-Contract Address: 0xF94A195a8Ebb7B0ed48e8B506C785bB1F7bf4732
-```
-
-You can also verify the contract on **Sepolia-Etherscan**:
+Verify the contract on **Sepolia-Etherscan**:
 [View Contract on Sepolia-Etherscan](https://sepolia.etherscan.io/address/0xF94A195a8Ebb7B0ed48e8B506C785bB1F7bf4732)
 
 
@@ -117,9 +102,9 @@ function earnCarbonCredit(uint256 energyProduced, uint256 timestamp) external re
 ```
 
 This mechanism guarantees that:
-✅ Only **registered devices** can log energy data.
-✅ **Fraudulent claims** are prevented by ensuring claimed energy does not exceed recorded production.
-✅ Users **earn carbon credits** based on verified renewable energy production.
+Only **registered devices** can log energy data.
+**Fraudulent claims** are prevented by ensuring claimed energy does not exceed recorded production.
+Users **earn carbon credits** based on verified renewable energy production.
 
 ---
 
